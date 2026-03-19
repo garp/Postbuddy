@@ -1,0 +1,11 @@
+node_modules
+
+.env.prod
+
+logs/*
+logs/combined.log
+logs/error.log
+logs/keyUser.log
+logs/combined.log
+logs/error.log
+logs/keyUsed.log
