@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Next.js (postbuddy-web)
+postbuddy-web/.next/
+postbuddy-web/out/
+postbuddy-web/.vercel
+
+# Browser extension build output
+postbuddy-extension/dist/
+
+# Logs & debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# Caches & temp
+.cache/
+.turbo/
+*.tsbuildinfo
+.eslintcache
+.parcel-cache
+
+# Optional local uploads / runtime data (adjust if you commit these)
+uploads/
+tmp/
+temp/
